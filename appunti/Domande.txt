@@ -1,0 +1,8 @@
+- Cambiare al posto di mandare mail mandare notifica -> caso d'uso e icona nella GUI
+- Aggiungere guest
+- Chiedere se serve il pop up tipo per la cancellazione
+- Nella V1 l'utente può vedere le informazioni degli altri utenti, va cambiato nella V2
+- FARE ACCESS OF RIGHTS 
+- cambiare use case diagram + cambiare RequestAddress
+- GetProducts vale anche per il customer 
+- cose ipad 

@@ -1,0 +1,47 @@
+FRA V
+login
+CreateNewAccount
+Request a list of all products per codice
+Request a product by code  
+Request a list of products by category
+Request a list of products by model
+-> menù a tendina con barra di ricerca x codice e categorie + menù a tendina con modelli 
+
+
+FRA P
+logout
+GetCurrentLoggedUser
+RegisterNewArrivals
+MarkProductAsSold (con ListAllProducts)
+CreateNewProduct
+DeleteProductByCode
+
+
+GIORGIO
+Pay
+GetHistoryPaidCarts
+RemoveProductFromCart
+DeleteCart
+AddProducts al carrello
+GetCart
+
+
+--cambiare get products v1 perchè da manager dobbiamo sostituire user
+--eliminare mark as sold sia da use case che da requistsi e caasi d'uso
+--cambiare eccezione log in
+--aggiungere scenario utente già presente
+--eliminare add new product perchè è incluso in register new arrivals e aggiustare nei casi d'uso e requisiti e rendere new product uno scenario
+--aggiungere guest -> stakeholders, context, stories, use case diagram (solo a get products del customer), glossario
+
+-- togliere request address perchè non abbiamo messo che si salva l'indirizzo
+-- aggiustare request shipment perchè vanno insierite le infromazioni dell'indirizzo
+-- rendere l'extend dell'indirizzo un include e va cambiato negli scenari perchè avevamo scritto che si salvava
+-- aggiungere ricevre notifica come caso d'uso e GUI e quindi anche use case diagram
+
+--glossario v1 -> aggiungere associazione customer -product per dire vche custoer visualizza product
+-- glossario v2 ->togliere rating a prodotto aggiungere classe modello, product belongs to modello e customer rates modello
+-- glossario guest
+-- guest stackeholder storie context interfacce
+
+--access of rights
+-- estimation
